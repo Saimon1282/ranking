@@ -1,0 +1,90 @@
+
+@font-face{
+	font-family: Agency FB;
+	src: local('../fonts/AGENCYB.TTF') format('truetype'),
+		local('../fonts/AGENCYR.TTF') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	display: none;
+}
+
+@font-face{
+	font-family: Verdana;
+	src: local('../fonts/verdana.ttf') format('truetype'),
+		local('../fonts/verdanab.ttf') format('truetype'),
+		local('../fonts/verdanai.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	display: none;
+}
+
+#header{
+	overflow: hidden;
+  	background-image: linear-gradient(#C7212F,#F73C40);
+  	padding: 20px 10px;
+  	font-family: Agency FB, Consolas, san-serif;
+  	font-size: 18px;
+  	color: white;
+}
+
+#header img{
+	display: inline-block;
+	float: right;
+}
+
+#header h1{
+	font-size: 50px;
+	margin: 5px 10px;
+	font-weight: bold;
+	display: inline-block;
+	text-shadow: 3px 3px 5px black;
+}
+
+#content{
+	margin: auto 20px;
+}
+
+hr{
+	margin: 5px 0;
+}
+
+#room-details, #data-titles{
+  	font-family: Agency FB, Consolas, san-serif;
+}
+
+#room-details, #data-titles, #opponents-list{
+	position: relative;
+	margin: 5px auto;
+}
+
+#room-details p, #data-titles p, .opponent p{
+	display: inline-block;
+	margin: 5px 10px;
+}
+
+#rest-time{
+	text-align: right;
+	position: absolute;
+	right: 5px;
+}
+
+#score-title, .score{
+	position: absolute;
+	right: 10px;
+}
+
+#opponents-list{
+	margin: 5px 2px;
+	font-weight: bold;
+	list-style: decimal;
+	list-style-position: inside;
+}
+
+.opponent{
+	font-family: Verdana, Magneto, san-serif;
+	margin: 5px 5px;
+	padding: 10px;
+	background-color: #F73C40;
+	color: white;
+}
+
